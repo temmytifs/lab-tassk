@@ -49,30 +49,31 @@ li {
     justify-content: space-between;
 }
 
-li button {
-    float: right;
-    min-width: 20%;
-    font-size: 20px;
-    background-color: white;
-    margin: auto, 0%;
-    min-height: 5px;
-
+li span{
+    display: inline;
+    width: 75%;
+    padding: 6px;
 }
 
-li input[type= "checkbox"]{
-   min-width: 5%;
+li button {
+    width: 20%;
+    font-size: 20px;
+    background-color: white;
+    min-height: 5px;
+}
+
+li input[type="checkbox"]{
+   margin-right: 10px;
+   width: 25px;
+   height: 25px;
+   margin-top: 10px;
    }
 
 #show-completed {
-    background-color: red;
+   margin-right: 450px;
 }
 
 
-
-
-li {
-    margin: 5px 0;
-}
 
 
 .completed {
